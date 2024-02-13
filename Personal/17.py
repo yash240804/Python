@@ -2,6 +2,7 @@
 d = int(input())
 c = int(input())
 n = int(input())
-c = c / 1000
-d = d + c
-print(d * n)
+d1 = c / 100
+print((d + d1) * n)
+c1 = d * 100
+print((c + c1) * n)
